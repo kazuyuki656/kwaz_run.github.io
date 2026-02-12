@@ -3,8 +3,8 @@ title: サブスリーへのラン日記
 description: 陸上未経験アラフォー市民ランナーのラン日記
 author: kwaz
 email: kwazthanks@gmail.com
-baseurl: "" # サブディレクトリの場合のみ設定
-url: "" # 独自ドメインを設定する場合（後で変更可能）
+baseurl: "/kwaz_run.github.io"　# サブディレクトリの場合のみ設定
+url: "https://kazuyuki656.github.io" # 独自ドメインを設定する場合（後で変更可能）
 
 # ビルド設定
 markdown: kramdown
