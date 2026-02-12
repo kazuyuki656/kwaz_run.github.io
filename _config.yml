@@ -58,3 +58,14 @@ github_username:
 # RSS Feed
 feed:
   path: feed.xml
+
+  # カスタムCSS
+header_pages:
+  - index.md
+  - about.md
+
+# カスタムスタイル
+sass:
+  style: compressed
+
+# カスタムhead（CSSの読み込み）
