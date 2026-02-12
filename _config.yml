@@ -1,0 +1,60 @@
+# サイト設定
+title: サブスリーへのラン日記
+description: 陸上未経験アラフォー市民ランナーのラン日記
+author: kwaz
+email: kwazthanks@gmail.com
+baseurl: "" # サブディレクトリの場合のみ設定
+url: "" # 独自ドメインを設定する場合（後で変更可能）
+
+# ビルド設定
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# ページネーション
+paginate: 10
+paginate_path: "/page:num/"
+
+# タイムゾーン
+timezone: Asia/Tokyo
+
+# パーマリンク設定
+permalink: /:year/:month/:day/:title/
+
+# 除外ファイル
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# デフォルト設定
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "kwaz"
+
+# コメント機能（必要に応じて有効化）
+# disqus:
+#   shortname: your-disqus-shortname
+
+# Google Analytics（必要に応じて有効化）
+# google_analytics: UA-XXXXXXXX-X
+
+# ソーシャルメディア
+twitter_username: 
+github_username: 
+
+# RSS Feed
+feed:
+  path: feed.xml
